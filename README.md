@@ -2,11 +2,20 @@
 script install base packages, intel processor, without GUI
 
 
-##install package
-#################
+# install package
+***
 
 ```shell
 
 wget -qO- https://bityli.com/OTCPq | bash
+
+```
+
+# change mirror
+***
+
+```shell
+
+wget -qO- https://bityli.com/Zhu9c | bash
 
 ```
