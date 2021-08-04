@@ -7,7 +7,7 @@ script install base packages, intel processor, without GUI
 
 ```shell
 
-wget -qO- https://bityli.com/OTCPq | bash
+wget -qO- encurtador.com.br/tvwGR | bash
 
 ```
 
@@ -16,6 +16,6 @@ wget -qO- https://bityli.com/OTCPq | bash
 
 ```shell
 
-wget -qO- https://bityli.com/Zhu9c | bash
+wget -qO- encurtador.com.br/jwzFQ | bash
 
 ```
