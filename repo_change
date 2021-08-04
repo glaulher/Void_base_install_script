@@ -3,16 +3,15 @@
 # Ref: https://www.reddit.com/r/voidlinux/comments/6xor9j/automatically_find_fastest_update_mirror_and_use/
 # Ref: https://edpsblog.wordpress.com/2019/08/24/how-to-escolhendo-espelhos-mais-rapidos-no-void-linux/
 #
-# Require:xbps-install -S geoip
+# Require: xbps-install -S geoip
 
-xbps-install -Suy geoip 
-xbps-install -Suy bc
-
-declare -a arr=("https://alpha.de.repo.voidlinux.org/" \
-#        "mirror.clarkson.edu" \
-        "https://alpha.us.repo.voidlinux.org/" \
-        "https://mirrors.servercentral.com/voidlinux/")
-#        "void.webconverger.org")
+xbps-install -S geoip
+xbps-install -S bc
+ 
+declare -a arr=("alpha.de.repo.voidlinux.org" \
+        "alpha.us.repo.voidlinux.org" \
+        "mirrors.servercentral.com" \
+        )
  
 fping=10000
 frepo=""
