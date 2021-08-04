@@ -6,6 +6,7 @@
 # Require:xbps-install -S geoip
 
 xbps-install -Suy geoip 
+xbps-install -Suy bc
 
 declare -a arr=("https://alpha.de.repo.voidlinux.org/" \
 #        "mirror.clarkson.edu" \
