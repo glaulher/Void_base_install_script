@@ -9,6 +9,7 @@ xbps-reconfigure -f linux
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/elogind /var/service
 
-xbps-install -Sy nano vim Adapta papirus-icon-theme breeze-cursors qt5-styleplugins font-firacode fonts-roboto-ttf font-awesome
-xbps-install -Sy pulseaudio pavucontrol alsa-plugins-pulseaudio alsa-utils squashfs-tools xrdb xkill gvfs acpilight
-xbps-install -Sy firefox-i18n-pt-BR ranger trash-cli mpv feh lrzip unzip zip p7zip-unrar p7zip  
+xbps-install -Svy nano vim Adapta papirus-icon-theme breeze-cursors
+xbps-install -Svy qt5-styleplugins font-firacode fonts-roboto-ttf font-awesome
+xbps-install -Svy pulseaudio pavucontrol alsa-plugins-pulseaudio alsa-utils squashfs-tools xrdb xkill gvfs acpilight
+xbps-install -Svy firefox-i18n-pt-BR ranger trash-cli mpv feh lrzip unzip zip p7zip-unrar p7zip  
